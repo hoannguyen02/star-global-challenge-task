@@ -1,5 +1,13 @@
 import React from 'react';
 import './App.css';
-const App = () => <div className="App"> Welcome to the challenge</div>;
+import SquareBox from './Components/SquareBox';
+
+const App = () => {
+    return (
+        <div className="App">
+            <SquareBox />
+        </div>
+    );
+};
 
 export default App;
