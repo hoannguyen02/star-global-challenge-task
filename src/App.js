@@ -1,5 +1,5 @@
 import React from 'react';
-import './App.css';
+import './App.scss';
 import SquareBox from './components/square-box';
 import Input from './components/input';
 import AreaContainer from './components/area-container';
