@@ -1,8 +1,8 @@
 import React from 'react';
 import './index.scss';
 
-const AreaContainer = () => (
-    <div className="area-container">Area Container Works!</div>
-);
+const AreaContainer = ({ onClick }) => {
+    return <div className="area-container" onClick={onClick} />;
+};
 
 export default AreaContainer;
