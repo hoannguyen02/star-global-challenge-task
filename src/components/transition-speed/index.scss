@@ -1,6 +1,20 @@
 .transition-speed {
-    margin-bottom: 16px;
+    margin: 16px 0;
     .input {
         margin-left: 16px;
+        height: 34px;
+        outline: none;
+        box-shadow: none;
+        border: solid 1px #ddd;
+        max-width: 100px;
+        text-align: center;
+    }
+
+    .speed-errors {
+        margin-left: 10px;
+        span {
+            color: rgb(235, 21, 21);
+            font-size: 12px;
+        }
     }
 }
