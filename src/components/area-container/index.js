@@ -1,8 +1,10 @@
-import React from 'react';
+import React, { forwardRef } from 'react';
 import './index.scss';
 
-const AreaContainer = ({ onClick }) => {
-    return <div className="area-container" onClick={onClick} />;
-};
+const AreaContainer = forwardRef(({ onClick, children }, ref) => (
+    <div ref={ref} className="area-container" onClick={onClick}>
+        {children}
+    </div>
+));
 
 export default AreaContainer;
