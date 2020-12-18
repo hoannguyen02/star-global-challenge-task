@@ -22,7 +22,9 @@ const TransitionSpeed = ({ onSpeedChange }) => {
     );
 
     return (
-        <div className="transition-speed">
+        <div
+            className={`transition-speed ${errors.length > 0 ? 'invalid' : ''}`}
+        >
             <label>Transition speed</label>
             <input
                 className="input"

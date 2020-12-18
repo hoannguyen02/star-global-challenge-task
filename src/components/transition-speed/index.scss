@@ -1,5 +1,7 @@
 .transition-speed {
-    margin: 16px 0;
+    position: relative;
+    margin: 16px 0 24px;
+    transition: all 0.3s ease-in-out;
     .input {
         margin-left: 16px;
         height: 34px;
@@ -12,9 +14,32 @@
 
     .speed-errors {
         margin-left: 10px;
+        transition: all 0.3s ease-in-out;
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        opacity: 0;
+        visibility: hidden;
+        height: 0;
         span {
             color: rgb(235, 21, 21);
             font-size: 12px;
+        }
+        @media (min-width: 1024px) {
+            position: initial;
+            display: inline-block;
+        }
+    }
+
+    &.invalid {
+        padding-bottom: 14px;
+        .speed-errors {
+            opacity: 1;
+            height: auto;
+            visibility: visible;
+        }
+        @media (min-width: 1024px) {
+            padding-bottom: 0;
         }
     }
 }
