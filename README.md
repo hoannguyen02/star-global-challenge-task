@@ -1,6 +1,5 @@
-# Getting Started with Create React App
+# This is a small project was generated based on create react app to show for Star Global what I have done for the challenge of the task
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
 
