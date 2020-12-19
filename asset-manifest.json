@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/star-global-challenge-task/static/css/main.4d78065e.chunk.css",
-    "main.js": "/star-global-challenge-task/static/js/main.7f5f99ad.chunk.js",
-    "main.js.map": "/star-global-challenge-task/static/js/main.7f5f99ad.chunk.js.map",
+    "main.css": "/star-global-challenge-task/static/css/main.ac461e1b.chunk.css",
+    "main.js": "/star-global-challenge-task/static/js/main.b5bb542f.chunk.js",
+    "main.js.map": "/star-global-challenge-task/static/js/main.b5bb542f.chunk.js.map",
     "runtime-main.js": "/star-global-challenge-task/static/js/runtime-main.b3b6edc1.js",
     "runtime-main.js.map": "/star-global-challenge-task/static/js/runtime-main.b3b6edc1.js.map",
     "static/js/2.8a2fb170.chunk.js": "/star-global-challenge-task/static/js/2.8a2fb170.chunk.js",
     "static/js/2.8a2fb170.chunk.js.map": "/star-global-challenge-task/static/js/2.8a2fb170.chunk.js.map",
     "index.html": "/star-global-challenge-task/index.html",
-    "static/css/main.4d78065e.chunk.css.map": "/star-global-challenge-task/static/css/main.4d78065e.chunk.css.map",
+    "static/css/main.ac461e1b.chunk.css.map": "/star-global-challenge-task/static/css/main.ac461e1b.chunk.css.map",
     "static/js/2.8a2fb170.chunk.js.LICENSE.txt": "/star-global-challenge-task/static/js/2.8a2fb170.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.b3b6edc1.js",
     "static/js/2.8a2fb170.chunk.js",
-    "static/css/main.4d78065e.chunk.css",
-    "static/js/main.7f5f99ad.chunk.js"
+    "static/css/main.ac461e1b.chunk.css",
+    "static/js/main.b5bb542f.chunk.js"
   ]
 }
