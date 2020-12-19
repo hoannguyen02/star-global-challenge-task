@@ -1,4 +1,4 @@
-# This is a small project was generated based on create react app to show for Star Global what I have done for the challenge of the task
+# A small app for Star Global 's technical challenge
 
 
 ## Available Scripts
@@ -26,7 +26,10 @@ It correctly bundles React in production mode and optimizes the build for the be
 The build is minified and the filenames include the hashes.\
 Your app is ready to be deployed!
 
+### `yarn deploy`
+
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+
 
 ### `yarn eject`
 

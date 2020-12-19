@@ -4,7 +4,7 @@ import SquareBox from './components/square-box';
 import TransitionSpeed from './components/transition-speed';
 import AreaContainer from './components/area-container';
 import { DEFAULT_TRANSITION_SPEED } from './constants';
-import GithubIcon from './shared/icons/GithubIcon';
+import WelcomeTitle from './components/welcome-title';
 
 const App = () => {
     const areaRef = useRef();
@@ -30,12 +30,7 @@ const App = () => {
 
     return (
         <div className="App">
-            <h2 className="welcome-title">
-                Hope you enjoy play around!
-                <a href="https://github.com/hoannguyen02/star-global-challenge-task">
-                    <GithubIcon />
-                </a>
-            </h2>
+            <WelcomeTitle />
             <TransitionSpeed onSpeedChange={handleOnSpeedChange} />
             <AreaContainer ref={areaRef} onClick={handleOnClick}>
                 <SquareBox
